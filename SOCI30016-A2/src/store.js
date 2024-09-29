@@ -9,7 +9,6 @@ const persistConfig = {
 };
 
 const persistedReducer = persistReducer(persistConfig, rootSlice);
-console.log(persistedReducer);
 
 export const store = configureStore({
   reducer: {
