@@ -8,6 +8,7 @@
     { "src": "/landfill", "dest": "/" },
     { "src": "/reuse", "dest": "/" },
     { "src": "/recycle", "dest": "/" },
-    { "src": "/repurpose", "dest": "/" }
+    { "src": "/repurpose", "dest": "/" },
+    { "src": "/your-emissions", "dest": "/" }
   ]
 }

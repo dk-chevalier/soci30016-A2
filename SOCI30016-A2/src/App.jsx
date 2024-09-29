@@ -10,6 +10,7 @@ import Landfill from "./pages/Landfill";
 import Reuse from "./pages/Reuse";
 import Recycle from "./pages/Recycle";
 import Repurpose from "./pages/Repurpose";
+import YourEmissions from "./pages/YourEmissions";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
         element: <Mining />,
         path: "/mining",
         id: "mining",
+      },
+      {
+        element: <YourEmissions />,
+        path: "/your-emissions",
+        id: "your-emissions",
       },
       {
         element: <Manufacturing />,
