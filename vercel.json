@@ -1,3 +1,13 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/mining", "dest": "/mining" },
+    { "src": "/manufacturing", "dest": "/manufacturing" },
+    { "src": "/use", "dest": "/use" },
+    { "src": "/disposal", "dest": "/disposal" },
+    { "src": "/landfill", "dest": "/landfill" },
+    { "src": "/reuse", "dest": "/reuse" },
+    { "src": "/recycle", "dest": "/recycle" },
+    { "src": "/repurpose", "dest": "/repurpose" }
+  ]
 }
