@@ -34,7 +34,10 @@ function Home() {
             Extraction of Materials
           </NavLink>
 
-          <div className="col-start-1 row-start-1 w-full h-full border-t-8 border-l-8 rounded-2xl border-slate-800"></div>
+          <div className="col-start-1 row-start-1 w-full h-full border-t-8 border-l-8 rounded-2xl border-slate-800 grid">
+            <div className="absolute h-0 w-0 border-x-[1rem] border-x-transparent border-b-[1rem] border-b-slate-800 self-center justify-self-start -translate-x-[calc(50%+4px)] -translate-y-[calc(50%+4px)]"></div>
+            <div className="absolute h-0 w-0 border-x-[1rem] border-x-transparent border-b-[1rem] border-b-slate-800 start justify-self-center -translate-y-[calc(50%+4px)] -translate-x-[calc(50%+4px)] rotate-90"></div>
+          </div>
 
           <NavLink
             to="./manufacturing"
@@ -45,7 +48,10 @@ function Home() {
             Manufacturing of Product
           </NavLink>
 
-          <div className="col-start-2 row-start-1 w-full h-full border-t-8 border-r-8 rounded-2xl border-slate-800"></div>
+          <div className="col-start-2 row-start-1 w-full h-full border-t-8 border-r-8 rounded-2xl border-slate-800 grid">
+            <div className="absolute h-0 w-0 border-x-[1rem] border-x-transparent border-b-[1rem] border-b-slate-800 self-start justify-self-center translate-x-[calc(50%+4px)] -translate-y-[calc(50%+4px)] rotate-90"></div>
+            <div className="absolute h-0 w-0 border-x-[1rem] border-x-transparent border-b-[1rem] border-b-slate-800 self-center justify-self-end -translate-y-[calc(50%+4px)] translate-x-[calc(50%+4px)] rotate-180"></div>
+          </div>
 
           <NavLink
             to="./use"
@@ -56,7 +62,10 @@ function Home() {
             Use of Product
           </NavLink>
 
-          <div className="col-start-2 row-start-2 w-full h-full border-b-8 border-r-8 rounded-2xl border-slate-800"></div>
+          <div className="col-start-2 row-start-2 w-full h-full border-b-8 border-r-8 rounded-2xl border-slate-800 grid">
+            <div className="absolute h-0 w-0 border-x-[1rem] border-x-transparent border-b-[1rem] border-b-slate-800 self-center justify-self-end translate-y-[calc(50%+4px)] translate-x-[calc(50%+4px)] rotate-180"></div>
+            <div className="absolute h-0 w-0 border-x-[1rem] border-x-transparent border-b-[1rem] border-b-slate-800 self-end justify-self-center translate-x-[calc(50%+4px)] translate-y-[calc(50%+4px)] -rotate-90"></div>
+          </div>
 
           <NavLink
             to="./disposal"
