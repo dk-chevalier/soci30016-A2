@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import { addWebGHG } from "./rootSlice";
 import { useDispatch } from "react-redux";
 
+const WEB_CO2 = +import.meta.env.VITE_WEB_CO2;
+
 function Reuse() {
   const dispatch = useDispatch();
 
@@ -13,7 +15,7 @@ function Reuse() {
           to="../"
           className="absolute top-2 right-3"
           reloadDocument
-          onClick={() => dispatch(addWebGHG(1))}
+          onClick={() => dispatch(addWebGHG(WEB_CO2))}
         >
           x
         </NavLink>

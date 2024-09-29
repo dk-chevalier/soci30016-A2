@@ -1,24 +1,22 @@
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, Outlet } from "react-router-dom";
-import {
-  addLaptopGHG,
-  addWebGHG,
-  selectLaptopGHG,
-  selectWebGHG,
-} from "./rootSlice";
+import { addLaptopGHG, addWebGHG, clearGHG } from "./rootSlice";
 import { useEffect } from "react";
 import GhgData from "../features/GhgData";
+
+const LAPTOP_CO2 = +import.meta.env.VITE_LAPTOP_CO2;
+const WEB_CO2 = +import.meta.env.VITE_WEB_CO2;
 
 function Home() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const id = setInterval(() => dispatch(addLaptopGHG(0.00015278)), 1000);
+    const id = setInterval(() => dispatch(addLaptopGHG(LAPTOP_CO2)), 1000);
 
     return () => {
       clearInterval(id);
     };
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
@@ -31,7 +29,7 @@ function Home() {
             to="./mining"
             reloadDocument
             className="col-start-1 row-start-2 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
-            onClick={() => dispatch(addWebGHG(1))}
+            onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Extraction of Materials
           </NavLink>
@@ -42,7 +40,7 @@ function Home() {
             to="./manufacturing"
             reloadDocument
             className="col-start-2 row-start-1 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
-            onClick={() => dispatch(addWebGHG(1))}
+            onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Manufacturing of Product
           </NavLink>
@@ -54,7 +52,7 @@ function Home() {
             to="./use"
             reloadDocument
             className="col-start-3 row-start-2 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
-            onClick={() => dispatch(addWebGHG(1))}
+            onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Use of Product
           </NavLink>
@@ -66,13 +64,19 @@ function Home() {
             to="./disposal"
             reloadDocument
             className="col-start-2 row-start-4 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
-            onClick={() => dispatch(addWebGHG(1))}
+            onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Disposal
           </NavLink>
         </div>
 
         <GhgData />
+        <button
+          className="absolute bottom-2 left-2"
+          onClick={() => dispatch(clearGHG())}
+        >
+          CLEAR GHG
+        </button>
         <Outlet />
       </div>
     </>

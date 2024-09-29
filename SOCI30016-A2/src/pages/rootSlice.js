@@ -15,10 +15,14 @@ const rootSlice = createSlice({
     addLaptopGHG(state, action) {
       state.laptopGHG += action.payload;
     },
+    clearGHG(state, action) {
+      state.webGHG = 0;
+      state.laptopGHG = 0;
+    },
   },
 });
 
-export const { addWebGHG, addLaptopGHG } = rootSlice.actions;
+export const { addWebGHG, addLaptopGHG, clearGHG } = rootSlice.actions;
 
 export default rootSlice.reducer;
 

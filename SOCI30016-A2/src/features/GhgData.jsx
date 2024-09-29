@@ -7,12 +7,12 @@ function GhgData() {
   return (
     <div className="row-start-6 col-span-4">
       <p>
-        Your actions on this website have contributed approximately {webGHG}{" "}
-        grams of GHG emissions this session
+        Your actions on this website have contributed approximately{" "}
+        {webGHG.toFixed(2)} grams of GHG emissions this session
       </p>
       <p>
-        Your laptop has contributed approximately {laptopGHG} grams of CO2
-        emissions this session
+        Your laptop has contributed approximately {laptopGHG.toFixed(8)} grams
+        of CO2 emissions this session
       </p>
     </div>
   );
