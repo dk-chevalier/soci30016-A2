@@ -19,42 +19,42 @@ const router = createBrowserRouter([
     children: [
       {
         element: <Mining />,
-        path: "mining",
+        path: "/mining",
         id: "mining",
       },
       {
         element: <Manufacturing />,
-        path: "manufacturing",
+        path: "/manufacturing",
         id: "manufacturing",
       },
       {
         element: <Use />,
-        path: "use",
+        path: "/use",
         id: "use",
       },
       {
         element: <Disposal />,
-        path: "disposal",
+        path: "/disposal",
         id: "disposal",
       },
       {
         element: <Landfill />,
-        path: "landfill",
+        path: "/landfill",
         id: "landfill",
       },
       {
         element: <Reuse />,
-        path: "reuse",
+        path: "/reuse",
         id: "reuse",
       },
       {
         element: <Recycle />,
-        path: "recycle",
+        path: "/recycle",
         id: "recycle",
       },
       {
         element: <Repurpose />,
-        path: "repurpose",
+        path: "/repurpose",
         id: "repurpose",
       },
     ],

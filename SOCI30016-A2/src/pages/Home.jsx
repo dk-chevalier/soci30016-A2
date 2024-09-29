@@ -28,7 +28,7 @@ function Home() {
         </h1>
         <div className="grid grid-cols-3 grid-rows-4 col-start-1 col-span-4 row-start-2 row-span-4 w-full h-full">
           <NavLink
-            to="/mining"
+            to="./mining"
             reloadDocument
             className="col-start-1 row-start-2 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
             onClick={() => dispatch(addWebGHG(1))}
@@ -39,7 +39,7 @@ function Home() {
             <div className="w-1/2 h-1/2 self-center justify-self-center translate-y-[-0.5rem] border-t-8 border-l-8 rounded-2xl border-slate-800"></div>
           </div>
           <NavLink
-            to="/manufacturing"
+            to="./manufacturing"
             reloadDocument
             className="col-start-2 row-start-1 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
             onClick={() => dispatch(addWebGHG(1))}
@@ -51,7 +51,7 @@ function Home() {
           </div>
 
           <NavLink
-            to="/use"
+            to="./use"
             reloadDocument
             className="col-start-3 row-start-2 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
             onClick={() => dispatch(addWebGHG(1))}
@@ -63,7 +63,7 @@ function Home() {
           </div>
 
           <NavLink
-            to="/disposal"
+            to="./disposal"
             reloadDocument
             className="col-start-2 row-start-4 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
             onClick={() => dispatch(addWebGHG(1))}
