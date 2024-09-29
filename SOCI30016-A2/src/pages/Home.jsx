@@ -24,46 +24,44 @@ function Home() {
         <h1 className="text-5xl justify-center col-start-1 col-span-4">
           E-waste & E-emissions at each stage of a products lifecycle
         </h1>
-        <div className="grid grid-cols-3 grid-rows-4 col-start-1 col-span-4 row-start-2 row-span-4 w-full h-full">
+        <div className="grid grid-cols-2 grid-rows-2 col-start-1 col-span-4 row-start-2 row-span-4 w-4/5 h-4/5">
           <NavLink
             to="./mining"
             reloadDocument
-            className="col-start-1 row-start-2 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
+            className="col-start-1 row-start-1 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Extraction of Materials
           </NavLink>
-          <div className="grid grid-rows-1 grid-cols-1 row-start-1 row-span-2 col-start-1 col-span-2 w-full h-full">
-            <div className="w-1/2 h-1/2 self-center justify-self-center translate-y-[-0.5rem] border-t-8 border-l-8 rounded-2xl border-slate-800"></div>
-          </div>
+
+          <div className="col-start-1 row-start-1 w-full h-full border-t-8 border-l-8 rounded-2xl border-slate-800"></div>
+
           <NavLink
             to="./manufacturing"
             reloadDocument
-            className="col-start-2 row-start-1 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
+            className="col-start-1 row-start-1 self-start justify-self-end z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white -translate-y-1/2 translate-x-1/2"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Manufacturing of Product
           </NavLink>
-          <div className="grid grid-rows-1 grid-cols-1 row-start-1 row-span-2 col-start-2 col-span-2 w-full h-full">
-            <div className="w-1/2 h-1/2 self-center justify-self-center translate-y-[-0.5rem] border-t-8 border-r-8 rounded-2xl border-slate-800"></div>
-          </div>
+
+          <div className="col-start-2 row-start-1 w-full h-full border-t-8 border-r-8 rounded-2xl border-slate-800"></div>
 
           <NavLink
             to="./use"
             reloadDocument
-            className="col-start-3 row-start-2 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
+            className="col-start-2 row-start-2 self-start justify-self-end z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white -translate-y-1/2 translate-x-1/2"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Use of Product
           </NavLink>
-          <div className="grid grid-rows-1 grid-cols-1 row-start-2 row-span-3 col-start-2 col-span-2 w-full h-full">
-            <div className="w-1/2 h-3/4 self-center justify-self-center border-b-8 border-r-8 rounded-2xl border-slate-800"></div>
-          </div>
+
+          <div className="col-start-2 row-start-2 w-full h-full border-b-8 border-r-8 rounded-2xl border-slate-800"></div>
 
           <NavLink
             to="./disposal"
             reloadDocument
-            className="col-start-2 row-start-4 self-center justify-self-center z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white"
+            className="col-start-2 row-start-2 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Disposal
