@@ -5,8 +5,9 @@ export default {
     extend: {
       keyframes: {
         float: {
-          "0%": { transform: "translateY(110vh) translateX(0)" },
-          "100%": { transform: "translateY(0) translateX(0)" },
+          "0%": { transform: "translateY(100vh) scale(0)", opacity: "0.7" },
+          "20%": { transform: "translateY(93vh) scale(1)", opacity: "1" },
+          "100%": { transform: "translateY(0) scale(1)" },
         },
       },
       animation: {
