@@ -9,7 +9,7 @@ function Manufacturing() {
 
   return (
     <>
-      <div className="border border-slate-800 rounded py-1 px-2 col-start-5 col-span-2 row-span-6 w-full h-full">
+      <div className="border border-slate-800 rounded py-1 px-2 col-start-5 col-span-2 row-span-6 w-full h-full bg-white">
         <p className="text-base">MANUFACTURING</p>
         <NavLink
           to="../"
