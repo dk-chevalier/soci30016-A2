@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { addLaptopGHG, addWebGHG, clearGHG } from "./rootSlice";
 import { useEffect } from "react";
 import GhgData from "../features/GhgData";
@@ -12,6 +12,17 @@ function Home() {
 
   useEffect(() => {
     const id = setInterval(() => dispatch(addLaptopGHG(LAPTOP_CO2)), 1000);
+
+    // const location = useLocation().pathname;
+
+    // let disposal;
+    // if (
+    //   location === "/" ||
+    //   location.includes("your") ||
+    //   location.includes("disposal")
+    // ) {
+    //   disposal = "Disposal";
+    // }
 
     return () => {
       clearInterval(id);
