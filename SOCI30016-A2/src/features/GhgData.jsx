@@ -33,11 +33,11 @@ function GhgData() {
           </p>
         </div>
 
-        <div className="bg-slate-800 text-white rounded-full w-6 h-6 py-1 self-center flex items-center justify-center border shadow-md">
+        <div className="self-center flex items-center justify-center">
           <NavLink
             to="./your-emissions"
             reloadDocument
-            className="flex items-center justify-center"
+            className="bg-slate-800 text-white rounded-full w-7 h-7 self-center flex items-center justify-center border shadow-md hover:scale-110 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             ?

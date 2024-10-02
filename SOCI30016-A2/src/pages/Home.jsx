@@ -39,7 +39,7 @@ function Home() {
           <NavLink
             to="./mining"
             reloadDocument
-            className="col-start-1 row-start-1 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2"
+            className="col-start-1 row-start-1 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2 hover:scale-105 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Extraction of Materials
@@ -53,7 +53,7 @@ function Home() {
           <NavLink
             to="./manufacturing"
             reloadDocument
-            className="col-start-1 row-start-1 self-start justify-self-end z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white -translate-y-1/2 translate-x-1/2"
+            className="col-start-1 row-start-1 self-start justify-self-end z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white -translate-y-1/2 translate-x-1/2 hover:scale-105 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Manufacturing of Product
@@ -67,7 +67,7 @@ function Home() {
           <NavLink
             to="./use"
             reloadDocument
-            className="col-start-2 row-start-2 self-start justify-self-end z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white -translate-y-1/2 translate-x-1/2"
+            className="col-start-2 row-start-2 self-start justify-self-end z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white -translate-y-1/2 translate-x-1/2 hover:scale-105 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Use of Product
@@ -81,7 +81,7 @@ function Home() {
           <NavLink
             to="./disposal"
             reloadDocument
-            className="col-start-2 row-start-2 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2"
+            className="col-start-2 row-start-2 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2 hover:scale-105 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
             Disposal
