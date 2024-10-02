@@ -3,7 +3,12 @@ import Info from "../features/Info";
 function Recycle() {
   return (
     <>
-      <Info>RECYCLE</Info>
+      <Info>
+        <h2 className="px-4 py-2 text-lg">RECYCLING</h2>
+        <div className="flex flex-col justify-around content-center h-full w-full">
+          <p></p>
+        </div>
+      </Info>
 
       <div className="grid grid-cols-2 grid-rows-2 col-start-1 col-span-4 row-start-2 row-span-4 w-4/5 h-4/5">
         {/* <p className="text-white col-start-2 row-start-1">Recycling</p> */}
