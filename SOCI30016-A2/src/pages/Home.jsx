@@ -32,8 +32,8 @@ function Home() {
   return (
     <>
       <div className="grid grid-cols-6 grid-rows-6 items-center justify-items-center max-w-full h-lvh min-h-min gap-3 p-2 bg-teal-200 text-slate-800">
-        <h1 className="text-5xl justify-center col-start-1 col-span-4">
-          E-waste & E-emissions at each stage of a products lifecycle
+        <h1 className="text-5xl justify-center col-start-1 col-span-4 text-center">
+          E-waste & E-emissions at each stage of a product's lifecycle
         </h1>
         <div className="grid grid-cols-2 grid-rows-2 col-start-1 col-span-4 row-start-2 row-span-4 w-4/5 h-4/5">
           <NavLink
