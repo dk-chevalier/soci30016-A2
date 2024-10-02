@@ -8,12 +8,12 @@ function Info({ name, children }) {
   const dispatch = useDispatch();
 
   return (
-    <div className="border border-slate-800 rounded py-1 px-2 col-start-5 col-span-2 row-span-6 w-full h-full bg-white">
+    <div className="border border-slate-800 rounded py-1 px-2 col-start-5 col-span-2 row-span-6 w-full h-full bg-white overflow-auto">
       <h2 className="px-4 py-2 text-lg w-full text-center">{name}</h2>
       {children}
       <NavLink
         to="../"
-        className="absolute top-2 right-3"
+        className="absolute top-4 right-4 text-lg text-center w-6 h-6 hover:scale-110 active:scale-100 duration-300"
         reloadDocument
         onClick={() => dispatch(addWebGHG(WEB_CO2))}
       >

@@ -21,15 +21,24 @@ function GhgData() {
         <div>
           <p>
             Your actions on this website have contributed approximately{" "}
-            {webGHG.toFixed(2)} grams of CO2 emissions this session
-          </p>
-          <p>
-            Your laptop has contributed approximately {laptopGHG.toFixed(8)}{" "}
+            <b className="animate-flash1 text-rose-800 text-lg">
+              {webGHG.toFixed(2)}
+            </b>{" "}
             grams of CO2 emissions this session
           </p>
           <p>
-            You have contributed approximately {totalGHG.toFixed(8)} grams of
-            CO2 emissions in total this session
+            Your laptop has contributed approximately{" "}
+            <b className="animate-flash text-rose-800 text-lg">
+              {laptopGHG.toFixed(8)}
+            </b>{" "}
+            grams of CO2 emissions this session
+          </p>
+          <p>
+            You have contributed approximately{" "}
+            <b className="animate-flash text-rose-800 text-lg">
+              {totalGHG.toFixed(8)}
+            </b>{" "}
+            grams of CO2 emissions in total this session
           </p>
         </div>
 
