@@ -10,11 +10,11 @@ export default {
           "100%": { transform: "translateY(0) scale(1)" },
         },
         flash: {
-          "0%": { opacity: "0.7" },
+          "0%": { opacity: "0.6" },
           "100%": { opacity: "1" },
         },
         flash1: {
-          "0%": { opacity: "0.7" },
+          "0%": { opacity: "0.5" },
           "100%": { opacity: "1" },
         },
       },
