@@ -3,7 +3,7 @@ import Info from "../features/Info";
 function Mining() {
   return (
     <>
-      <Info>MINING</Info>
+      <Info name="MINING"></Info>
     </>
   );
 }

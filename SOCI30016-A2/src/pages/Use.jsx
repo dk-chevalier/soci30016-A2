@@ -3,7 +3,7 @@ import Info from "../features/Info";
 function Use() {
   return (
     <>
-      <Info>USE</Info>
+      <Info name="USE PHASE"></Info>
     </>
   );
 }

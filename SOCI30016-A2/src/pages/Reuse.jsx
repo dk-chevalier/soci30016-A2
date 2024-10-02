@@ -3,8 +3,7 @@ import Info from "../features/Info";
 function Reuse() {
   return (
     <>
-      <Info>
-        <h2 className="px-4 py-2 text-lg">REUSE</h2>
+      <Info name="REUSE">
         <div className="flex flex-col justify-around content-center h-full w-full py-3 px-3">
           <div className="h-full w-full flex flex-col gap-10">
             <div>

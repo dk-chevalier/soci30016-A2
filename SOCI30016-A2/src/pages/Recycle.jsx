@@ -3,8 +3,7 @@ import Info from "../features/Info";
 function Recycle() {
   return (
     <>
-      <Info>
-        <h2 className="px-4 py-2 text-lg">RECYCLING</h2>
+      <Info name="RECYCLING">
         <div className="flex flex-col justify-around content-center h-full w-full">
           <p></p>
         </div>

@@ -3,7 +3,7 @@ import Info from "../features/Info";
 function YourEmissions() {
   return (
     <>
-      <Info>
+      <Info name="YOUR EMISSIONS WHILE EXPLORING THIS WEBSITE">
         <div className="flex flex-col justify-around content-center h-full w-full">
           <p>
             Emissions calculated here are a rough approximation according to the
