@@ -27,6 +27,24 @@ function Reuse() {
                     </li>
                   </ul>
                 </li>
+                <li className="w-5/6">
+                  Products with high use-phase energy requirements and improving
+                  efficiencies should not be reused, as use-phase energy makes
+                  up the majority of total energy usage of such products (Cooper
+                  & Gutowski 2015, p. 48)
+                  <ul
+                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
+                    style={{ listStyle: "circle" }}
+                  >
+                    <li className="w-5/6">
+                      e.g. energy payback period of buying a more efficient new
+                      refrigerator is as low as 2 years (meaning environmentally
+                      better to upgrade your refrigerator every 2 years) (Cooper
+                      & Gutowski 2015, p. 48; Kiatkittipong et al. 2007, p.
+                      1343)
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div>
@@ -41,7 +59,7 @@ function Reuse() {
                   products into 'liquid assets' making it easy for consumers to
                   sell them (Thomas 2003, p. 66)
                   <ul
-                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
+                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 my-2"
                     style={{ listStyle: "circle" }}
                   >
                     <li className="w-5/6">
@@ -50,6 +68,16 @@ function Reuse() {
                       to an increase in consumers' wealth and thus increase in
                       overall demand (Thomas 2003, p. 66)
                     </li>
+                  </ul>
+                </li>
+                <li className="w-5/6">
+                  Secondhand products are typically priced betwen 45%-65% of new
+                  equivalents (Cooper & Gutowski 2015, p. 40)
+                  <ul
+                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 my-2"
+                    style={{ listStyle: "circle" }}
+                  >
+                    {/* <li className="w-5/6"></li> */}
                   </ul>
                 </li>
               </ul>
