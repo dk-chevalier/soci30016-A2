@@ -30,6 +30,27 @@ function Use() {
                 </li>
               </ul>
             </div>
+            <div>
+              Data centre electricity usage and emissions often are not
+              considered by everyday consumers, but these are a necessary part
+              of the use-phase emissions and energy consumption of any products
+              connected to the internet
+              <ul
+                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 gap-2 my-2"
+                style={{ listStyle: "disc" }}
+              >
+                <li className="w-5/6">
+                  e.g. in 2011 the energy consumption of data centres surpassed
+                  10% of global electricity consumption (Velkova 2016, p. 3)
+                </li>
+                <li className="w-5/6">
+                  a 2015 study showed that the National Security Agency's
+                  surveillance data centre, which is the 3rd largest in the
+                  world, requires 1.7 million gallons of water per day to keep
+                  its servers cooled and running (Velkova 2016, p. 3)
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </Info>
