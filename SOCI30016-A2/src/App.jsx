@@ -40,8 +40,8 @@ const router = createBrowserRouter([
       },
       {
         element: <Disposal />,
-        path: "/disposal",
-        id: "disposal",
+        path: "/eol",
+        id: "eol",
       },
       {
         element: <Landfill />,

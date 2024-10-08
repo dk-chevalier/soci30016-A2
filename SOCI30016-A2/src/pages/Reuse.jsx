@@ -16,6 +16,16 @@ function Reuse() {
                 <li className="w-5/6">
                   e.g. Only about 5% of 'used' phone sales displace sales of
                   'new' phones
+                  <ul
+                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
+                    style={{ listStyle: "circle" }}
+                  >
+                    <li className="w-5/6">
+                      this relatively miniscule displacement effect is generally
+                      true of all products that depreciate rapidly (e.g.
+                      computers) (Thomas 2003, p. 75)
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -23,9 +33,26 @@ function Reuse() {
               Savings from buying cheaper secondhand products means dollars are
               spent elsewhere, in potentially more environmentally harmful areas
               <ul
-                className="flex flex-col justify-around content-center self-end justify-self-end w-3/4 py-3 px-3"
+                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
-              ></ul>
+              >
+                <li className="w-5/6">
+                  some economists argue secondhand markets turn consumer
+                  products into 'liquid assets' making it easy for consumers to
+                  sell them (Thomas 2003, p. 66)
+                  <ul
+                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
+                    style={{ listStyle: "circle" }}
+                  >
+                    <li className="w-5/6">
+                      this, along with the secondhand market's effect of
+                      lowering overall prices (Zink & Geyer 2017, p. 598), leads
+                      to an increase in consumers' wealth and thus increase in
+                      overall demand (Thomas 2003, p. 66)
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

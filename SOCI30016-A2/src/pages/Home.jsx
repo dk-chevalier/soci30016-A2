@@ -10,19 +10,22 @@ const WEB_CO2 = +import.meta.env.VITE_WEB_CO2;
 function Home() {
   const dispatch = useDispatch();
 
+  const location = useLocation().pathname;
+
+  let eol;
+  if (
+    location !== "/" &&
+    location !== "/use" &&
+    location !== "/your-emissions" &&
+    location !== "/eol" &&
+    location !== "/manufacturing" &&
+    location !== "/mining"
+  ) {
+    eol = location.slice(1).toUpperCase();
+  }
+
   useEffect(() => {
     const id = setInterval(() => dispatch(addLaptopGHG(LAPTOP_CO2)), 1000);
-
-    // const location = useLocation().pathname;
-
-    // let disposal;
-    // if (
-    //   location === "/" ||
-    //   location.includes("your") ||
-    //   location.includes("disposal")
-    // ) {
-    //   disposal = "Disposal";
-    // }
 
     return () => {
       clearInterval(id);
@@ -85,22 +88,29 @@ function Home() {
           </div>
 
           <NavLink
-            to="./disposal"
+            to="./eol"
             reloadDocument
             className="col-start-2 row-start-2 self-end justify-self-start z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white translate-y-1/2 -translate-x-1/2 hover:scale-105 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
             onClick={() => dispatch(addWebGHG(WEB_CO2))}
           >
-            Disposal
+            Select End-Of-Life option:
+            {eol ? (
+              <p className="w-full text-center font-bold rounded-sm bg-white text-slate-800 py-1">
+                {eol}
+              </p>
+            ) : (
+              ""
+            )}
           </NavLink>
         </div>
 
         <GhgData />
-        <button
+        {/* <button
           className="absolute bottom-2 left-2"
           onClick={() => dispatch(clearGHG())}
         >
           CLEAR GHG
-        </button>
+        </button> */}
         <Outlet />
       </div>
     </>

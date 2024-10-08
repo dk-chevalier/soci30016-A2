@@ -10,7 +10,7 @@ function Disposal() {
   return (
     <>
       <div className="absolute w-1/6 h-min border bg-white border-slate-800 rounded py-1 px-2 bottom-1/2 translate-x-1/2 tranlate-y-1/2 right-2/3 z-20">
-        <p className="text-base mb-4">Select a disposal method:</p>
+        <p className="text-base mb-4">Select a End-Of-Life option:</p>
         <div className="flex flex-col justify-between gap-3">
           <NavLink
             to="../landfill"
