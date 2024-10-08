@@ -4,7 +4,7 @@
     { "src": "/mining", "dest": "/" },
     { "src": "/manufacturing", "dest": "/" },
     { "src": "/use", "dest": "/" },
-    { "src": "/disposal", "dest": "/" },
+    { "src": "/eol", "dest": "/" },
     { "src": "/landfill", "dest": "/" },
     { "src": "/reuse", "dest": "/" },
     { "src": "/recycle", "dest": "/" },
