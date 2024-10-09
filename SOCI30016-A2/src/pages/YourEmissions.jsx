@@ -10,7 +10,9 @@ function YourEmissions() {
         <div className="flex flex-col gap-5 justify-around content-center h-full w-full">
           <p>
             Emissions calculated here are a rough approximation according to the
-            following data:
+            below data. Though the data is only approximate, the aim is to show
+            that every action on one's computer and on the internet contributes
+            to emissions.
           </p>
           <div className="w-full">
             <p>
