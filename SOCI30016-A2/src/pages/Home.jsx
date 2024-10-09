@@ -21,7 +21,7 @@ function Home() {
     location !== "/manufacturing" &&
     location !== "/mining"
   ) {
-    eol = location.slice(1).toUpperCase();
+    eol = location.replace(/\//g, "").toUpperCase();
   }
 
   useEffect(() => {
