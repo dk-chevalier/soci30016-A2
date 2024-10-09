@@ -11,6 +11,7 @@ import Reuse from "./pages/Reuse";
 import Recycle from "./pages/Recycle";
 import Repurpose from "./pages/Repurpose";
 import YourEmissions from "./pages/YourEmissions";
+import Map from "./pages/Map";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,13 @@ const router = createBrowserRouter([
         element: <Landfill />,
         path: "/landfill",
         id: "landfill",
+        children: [
+          {
+            element: <Map />,
+            path: "e-waste-image",
+            id: "image",
+          },
+        ],
       },
       {
         element: <Reuse />,
