@@ -6,6 +6,7 @@
     { "src": "/use", "dest": "/" },
     { "src": "/eol", "dest": "/" },
     { "src": "/landfill", "dest": "/" },
+    { "src": "/landfill/", "dest": "/" },
     { "src": "/landfill/e-waste-image", "dest": "/" },
     { "src": "/reuse", "dest": "/" },
     { "src": "/recycle", "dest": "/" },
