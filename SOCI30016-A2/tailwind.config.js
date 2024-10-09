@@ -10,12 +10,16 @@ export default {
           "100%": { transform: "translateY(0) scale(1)" },
         },
         flash: {
-          "0%": { opacity: "0.6" },
-          "100%": { opacity: "1" },
+          // "0%": { opacity: "0.6" },
+          // "100%": { opacity: "1" },
+          "0%": { color: "rgb(253 164 175)" },
+          "100%": { color: "rgb(159 18 57)" },
         },
         flash1: {
-          "0%": { opacity: "0.5" },
-          "100%": { opacity: "1" },
+          // "0%": { opacity: "0.5" },
+          // "100%": { opacity: "1" },
+          "0%": { color: "rgb(253 164 175)" },
+          "100%": { color: "rgb(159 18 57)" },
         },
       },
       animation: {
