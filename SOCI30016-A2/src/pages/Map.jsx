@@ -13,7 +13,7 @@ function Map() {
       <div className="absolute w-[80vw] h-[90vh] z-50  bg-slate-800 rounded-lg">
         <NavLink
           to="../"
-          className="absolute top-4 right-4 text-lg text-center w-6 h-6 hover:scale-110 active:scale-100 duration-300 text-white"
+          className="absolute top-4 right-4 text-xl text-center w-6 h-6 hover:scale-110 active:scale-100 duration-300 text-white font-bold"
           reloadDocument
           onClick={() => dispatch(addWebGHG(WEB_CO2))}
         >

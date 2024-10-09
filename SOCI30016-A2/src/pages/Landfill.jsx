@@ -31,7 +31,7 @@ function Landfill() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="w-full flex flex-col items-center">
               <p className="mb-4">
                 The amount of e-waste generated per capita is strongly
                 correlated with the country's GDP (Robinson, 2009)
@@ -42,7 +42,7 @@ function Landfill() {
                 className="z-10 py-3 px-2 border rounded shadow-md bg-slate-800 text-white hover:scale-105 duration-300 hover:shadow-xl active:scale-100 active:shadow-md active:bg-slate-700"
                 onClick={() => dispatch(addWebGHG(WEB_CO2))}
               >
-                GDP & E-waste Map
+                Open GDP & E-waste Map
               </NavLink>
             </div>
             <div>

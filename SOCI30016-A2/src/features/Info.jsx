@@ -13,7 +13,7 @@ function Info({ name, children }) {
       <div className="w-full h-[90%] overflow-auto">{children}</div>
       <NavLink
         to="../"
-        className="absolute top-4 right-4 text-lg text-center w-6 h-6 hover:scale-110 active:scale-100 duration-300 font-semibold"
+        className="absolute top-4 right-4 text-xl text-center w-6 h-6 hover:scale-110 active:scale-100 duration-300 font-bold"
         reloadDocument
         onClick={() => dispatch(addWebGHG(WEB_CO2))}
       >
