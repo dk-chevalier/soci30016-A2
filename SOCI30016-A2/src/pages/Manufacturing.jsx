@@ -4,14 +4,7 @@ function Manufacturing() {
   return (
     <>
       <Info name="MANUFACTURING">
-        <div className="flex flex-col content-center h-full w-full py-3 px-3">
-          <div className="h-full w-full flex flex-col gap-10">
-            <div>
-              Manufacturing & resource extraction account for approximately
-              20-30% of the total lifecycle energy requirements of a computer
-              (Sahni et al. 2010)
-            </div>
-          </div>
+        <div className="flex flex-col content-center h-full w-full py-3 px-3 gap-6">
           <div className="h-full w-full flex flex-col gap-10">
             <div>
               Production of single smartphone emits 16kgs of CO2 and cost 14,000
@@ -34,6 +27,33 @@ function Manufacturing() {
                 <li className="w-5/6">
                   In addition, building an iPhone 7 Plus creates roughly 10%
                   more CO2 emissions than an iPhone 6s does (Wilson, 2018)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="h-full w-full flex flex-col gap-10">
+            <div>
+              Manufacturing & resource extraction account for approximately
+              20-30% of the total lifecycle energy requirements of a computer
+              (Sahni et al. 2010)
+              <ul
+                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
+                style={{ listStyle: "disc" }}
+              >
+                <li className="w-5/6">
+                  <p>
+                    Though notably this seems to contradict other data which
+                    claims the manufacturing phase of a laptop accounts for
+                    75%-85% of its overall carbon footprint:
+                  </p>
+                  <a
+                    href="https://circularcomputing.com/news/carbon-footprint-laptop/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-blue-500"
+                  >
+                    https://circularcomputing.com/news/carbon-footprint-laptop/
+                  </a>
                 </li>
               </ul>
             </div>
