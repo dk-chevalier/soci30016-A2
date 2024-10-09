@@ -7,8 +7,9 @@ function Manufacturing() {
         <div className="flex flex-col content-center h-full w-full py-3 px-3 gap-6">
           <div className="h-full w-full flex flex-col gap-10">
             <div>
-              Production of single smartphone emits 16kgs of CO2 and cost 14,000
-              litres of water (Abd El Aziz, 2022; Liboiron et al. 2022)
+              Production of <b>single smartphone</b> emits <b>16kgs of CO2</b>{" "}
+              and cost <b>14,000 litres of water</b> (Abd El Aziz, 2022;
+              Liboiron et al. 2022)
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
@@ -20,13 +21,17 @@ function Manufacturing() {
                   2022)
                 </li>
                 <li className="w-5/6">
-                  The entire lifecycle of the iPhone 6s emitted about 95 kg of
-                  CO2, 85% of which occurred in the manufacturing stage
-                  (Suckling & Lee, 2015)
+                  The entire lifecycle of the{" "}
+                  <b>iPhone 6s emitted about 95 kg of CO2</b>, 85% of which
+                  occurred in the manufacturing stage (Suckling & Lee, 2015)
                 </li>
                 <li className="w-5/6">
-                  In addition, building an iPhone 7 Plus creates roughly 10%
-                  more CO2 emissions than an iPhone 6s does (Wilson, 2018)
+                  In addition,{" "}
+                  <b>
+                    building an iPhone 7 Plus creates roughly 10% more CO2
+                    emissions than an iPhone 6s does
+                  </b>{" "}
+                  (Wilson, 2018)
                 </li>
               </ul>
             </div>
@@ -42,9 +47,11 @@ function Manufacturing() {
               >
                 <li className="w-5/6">
                   <p>
-                    Though notably this seems to contradict other data which
-                    claims the manufacturing phase of a laptop accounts for
-                    75%-85% of its overall carbon footprint:
+                    Though notably this potentially goes against other data
+                    which claims the manufacturing phase of a laptop accounts
+                    for 75%-85% of its overall carbon footprint (depending on
+                    how closely related energy requirements and carbon footprint
+                    are):
                   </p>
                   <a
                     href="https://circularcomputing.com/news/carbon-footprint-laptop/"

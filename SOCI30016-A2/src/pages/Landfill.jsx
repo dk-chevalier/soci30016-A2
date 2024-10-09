@@ -13,19 +13,21 @@ function Landfill() {
         <div className="flex flex-col justify-around content-center h-full w-full py-3 px-3">
           <div className="h-full w-full flex flex-col gap-10">
             <div>
-              The majority of the e-waste generated ends up in landfills
+              <b>The majority of the e-waste generated ends up in landfills</b>{" "}
               (Barba-Gutierrez et al., 2008).
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
               >
                 <li className="w-5/6">
-                  In 2019, it was found that 83% of e-waste generated that year
-                  was unaccounted for, likely having been burnt or dumped
-                  illegally. (Shahabuddin et al., 2022)
+                  In 2019, it was found that{" "}
+                  <b>83% of e-waste generated that year was unaccounted for</b>,
+                  likely having been burnt or dumped illegally. (Shahabuddin et
+                  al., 2022)
                 </li>
                 <li className="w-5/6">
-                  In 2012, only about 15% of phones were responsibly disposed,
+                  In 2012,{" "}
+                  <b>only about 15% of phones were responsibly disposed</b>,
                   while the rest were either kept in storage or improperly
                   disposed of (Zink et al. 2014, p. 1100)
                 </li>
@@ -33,8 +35,11 @@ function Landfill() {
             </div>
             <div className="w-full flex flex-col items-center">
               <p className="mb-4">
-                The amount of e-waste generated per capita is strongly
-                correlated with the country's GDP (Robinson, 2009)
+                <b>
+                  The amount of e-waste generated per capita is strongly
+                  correlated with the country's GDP
+                </b>{" "}
+                (Robinson, 2009)
               </p>
               <NavLink
                 to="./e-waste-image"
@@ -46,7 +51,7 @@ function Landfill() {
               </NavLink>
             </div>
             <div>
-              Waste Colonisalism:
+              <b>Waste Colonisalism:</b>
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
@@ -62,7 +67,7 @@ function Landfill() {
               </ul>
             </div>
             <div>
-              Health and environment:
+              <b>Health and environment:</b>
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}

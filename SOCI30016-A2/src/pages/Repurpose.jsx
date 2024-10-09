@@ -7,8 +7,11 @@ function Repurpose() {
         <div className="flex flex-col justify-around content-center h-full w-full py-3 px-3">
           <div className="h-full w-full flex flex-col gap-10">
             <div>
-              One study found that repurposing can be environmentally preferable
-              to reuse/remanufacture
+              One study found that{" "}
+              <b>
+                repurposing can be environmentally preferable to
+                reuse/remanufacture
+              </b>
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
@@ -19,12 +22,6 @@ function Repurpose() {
                   thus more environmental benefits, rather than the minimal
                   displacement of new phones that generally occurs if instead
                   reused as a secondhand phone (Zink et al. 2014, p. 1107)
-                  <ul
-                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
-                    style={{ listStyle: "circle" }}
-                  >
-                    {/* <li className="w-5/6"></li> */}
-                  </ul>
                 </li>
               </ul>
             </div>

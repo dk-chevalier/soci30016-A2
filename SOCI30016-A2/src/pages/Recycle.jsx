@@ -8,67 +8,77 @@ function Recycle() {
         <div className="flex flex-col justify-around content-center h-full w-full py-3 px-3">
           <div className="h-full w-full flex flex-col gap-10">
             <div>
-              Waste from electrical appliances contains valuable materials such
-              as non-ferrous metals, plastics, glass, and reusable components,
-              all of which have significant recycling potential.
+              The primary economic incentive for recycling e-waste is the
+              recovery of precious metals, which account for over 70% of the
+              value in devices like cell phones and circuit boards, and 40% in
+              TV boards and DVD players. Precious metals are highly valued in
+              electronics for their chemical stability and conductivity, with
+              metals like platinum, copper, and zinc also contributing to
+              recycling demand.{" "}
+              <b>
+                Studies show that from just one ton of random electronic boards,
+                it is possible to recover 145kg of copper, 0.5g of gold, 40.8kg
+                of iron, 29.5kg of lead, 2kg of tin, and 18.1kg of nickel
+              </b>{" "}
+              (J. Cui and L. Zhang, 2008).
+            </div>
+            <div>
+              <b>Recycling Rates:</b>
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
               >
                 <li className="w-5/6">
-                  Studies show that from just one ton of random electronic
-                  boards, it is possible to recover 145 kg of copper, 0.5 g of
-                  gold, 40.8 kg of iron, 29.5 kg of lead, 2 kg of tin, and 18.1
-                  kg of nickel.
+                  The <b>global rate of e-waste recycling</b> has been estimated
+                  at about <b>13% in 2009</b>, while the estimates of recycling
+                  in the U.S. range from 13.6% to 26.6% (Jiang et al. 2012)
+                </li>
+                <li className="w-5/6">
+                  Another study estimates that{" "}
+                  <b>
+                    only around 1/5th of e-waste is <em>formally</em> recycled
+                  </b>
+                  , with the rest being informally recycled in developing
+                  countries, or sent to landfill (Sahle-Demessie et al., 2021,
+                  p. 1)
                 </li>
               </ul>
             </div>
             <div>
-              Recycling Rates:
-              <ul
-                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
-                style={{ listStyle: "disc" }}
-              >
-                <li className="w-5/6">
-                  E-waste recycling has become highly specialised in the United
-                  States, which has led to a recycling rate of over 97%
-                </li>
-                <li className="w-5/6">
-                  The recycling rate for waste electrical appliances in Germany
-                  exceeds 90%, with their recycling systems able to handle up to
-                  30,000 tons of waste annually
-                </li>
-                <li className="w-5/6">
-                  However, despite this, one study argues that only around 1/5th
-                  of e-waste is <em>formally</em> recycled, with the rest being
-                  informally recycled in developing countries, or sent to
-                  landfill (Sahle-Demessie et al., 2021, p. 1)
-                </li>
-              </ul>
-            </div>
-            <div>
-              Informal Recycling Issues:
+              <b>Informal Recycling Issues:</b>
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
               >
                 <li className="w-5/6">
                   Pyrolysis and open burning practiced at informal recycling
-                  sites releases hazardous pollutants that are harmful to humans
-                  and the environment (Sahle-Demessie et al., 2021, p. 14)
+                  sites{" "}
+                  <b>
+                    releases hazardous pollutants that are harmful to humans and
+                    the environment
+                  </b>{" "}
+                  (Sahle-Demessie et al., 2021, p. 14)
                 </li>
                 <li className="w-5/6">
-                  informal recycling often involves separating recyclable metals
-                  from plastics, which in US, electronics plastics make up
-                  approx. 5% of municipal waste (Sahle-Emessie et al. 2021, p.
-                  2)
+                  <b>
+                    50-80% of e-waste from developed countries is exported to
+                    developing nations
+                  </b>{" "}
+                  like China, India, and Pakistan,{" "}
+                  <b>
+                    where it is processed using hazardous and unsafe methods
+                  </b>{" "}
+                  due to lenient regulations and lower labor costs. This
+                  improper handling, including manual dismantling, open-air
+                  burning, and cyanide leaching,{" "}
+                  <b>poses significant health and environmental risks</b> (Keith
+                  & Fisher, 2009)
                   <ul
                     className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                     style={{ listStyle: "disc" }}
                   >
                     <li className="w-5/6">
-                      Sending recycling to developing countries also leads to
-                      'waste colonialism'{" "}
+                      This is a kind of <b>'Waste Colonialism'</b>{" "}
                       <Link to="../landfill" className="text-blue-500">
                         (c.f. Landfill Section)
                       </Link>

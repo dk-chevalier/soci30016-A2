@@ -10,12 +10,15 @@ function Reuse() {
               Rebound effects mean that perceived emissions and energy savings
               are not always present:
               <ul
-                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
+                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 gap-3"
                 style={{ listStyle: "disc" }}
               >
                 <li className="w-5/6">
-                  e.g. Only about 5% of 'used' phone sales displace sales of
-                  'new' phones
+                  e.g.{" "}
+                  <b>
+                    Only about 5% of 'used' phone sales displace sales of 'new'
+                    phones
+                  </b>
                   <ul
                     className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
                     style={{ listStyle: "circle" }}
@@ -38,10 +41,13 @@ function Reuse() {
                   >
                     <li className="w-5/6">
                       e.g. energy payback period of buying a more efficient new
-                      refrigerator is as low as 2 years (meaning environmentally
-                      better to upgrade your refrigerator every 2 years) (Cooper
-                      & Gutowski 2015, p. 48; Kiatkittipong et al. 2007, p.
-                      1343)
+                      refrigerator is as low as 2 years (meaning{" "}
+                      <b>
+                        environmentally better to upgrade your refrigerator
+                        every 2 years
+                      </b>
+                      ) (Cooper & Gutowski 2015, p. 48; Kiatkittipong et al.
+                      2007, p. 1343)
                     </li>
                   </ul>
                 </li>
@@ -64,21 +70,18 @@ function Reuse() {
                   >
                     <li className="w-5/6">
                       this, along with the secondhand market's effect of
-                      lowering overall prices (Zink & Geyer 2017, p. 598), leads
-                      to an increase in consumers' wealth and thus increase in
-                      overall demand (Thomas 2003, p. 66)
+                      lowering overall prices (Zink & Geyer 2017, p. 598),{" "}
+                      <b>
+                        leads to an increase in consumers' wealth and thus
+                        increase in overall demand
+                      </b>{" "}
+                      (Thomas 2003, p. 66)
                     </li>
                   </ul>
                 </li>
                 <li className="w-5/6">
-                  Secondhand products are typically priced betwen 45%-65% of new
-                  equivalents (Cooper & Gutowski 2015, p. 40)
-                  <ul
-                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 my-2"
-                    style={{ listStyle: "circle" }}
-                  >
-                    {/* <li className="w-5/6"></li> */}
-                  </ul>
+                  Secondhand products are typically priced between 45%-65% of
+                  new equivalents (Cooper & Gutowski 2015, p. 40)
                 </li>
               </ul>
             </div>
