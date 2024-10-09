@@ -7,28 +7,46 @@ function Recycle() {
         <div className="flex flex-col justify-around content-center h-full w-full py-3 px-3">
           <div className="h-full w-full flex flex-col gap-10">
             <div>
-              Formal Recycling:
+              Waste from electrical appliances contains valuable materials such
+              as non-ferrous metals, plastics, glass, and reusable components,
+              all of which have significant recycling potential.
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
               >
                 <li className="w-5/6">
-                  Only around 1/5th of e-waste is formally recycled
-                  (Sahle-Demessie et al., 2021, p. 1)
-                  <ul
-                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
-                    style={{ listStyle: "circle" }}
-                  >
-                    <li className="w-5/6">
-                      rest is either sent to landfill or informally recycled in
-                      developing countries
-                    </li>
-                  </ul>
+                  Studies show that from just one ton of random electronic
+                  boards, it is possible to recover 145 kg of copper, 0.5 g of
+                  gold, 40.8 kg of iron, 29.5 kg of lead, 2 kg of tin, and 18.1
+                  kg of nickel.
                 </li>
               </ul>
             </div>
             <div>
-              Informal Recycling
+              Recycling Rates:
+              <ul
+                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
+                style={{ listStyle: "disc" }}
+              >
+                <li className="w-5/6">
+                  E-waste recycling has become highly specialised in the United
+                  States, which has led to a recycling rate of over 97%
+                </li>
+                <li className="w-5/6">
+                  The recycling rate for waste electrical appliances in Germany
+                  exceeds 90%, with their recycling systems able to handle up to
+                  30,000 tons of waste annually
+                </li>
+                <li className="w-5/6">
+                  However, despite this, one study argues that only around 1/5th
+                  of e-waste is <em>formally</em> recycled, with the rest being
+                  informally recycled in developing countries, or sent to
+                  landfill (Sahle-Demessie et al., 2021, p. 1)
+                </li>
+              </ul>
+            </div>
+            <div>
+              Informal Recycling Issues:
               <ul
                 className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
                 style={{ listStyle: "disc" }}
@@ -38,28 +56,11 @@ function Recycle() {
                   sites releases hazardous pollutants that are harmful to humans
                   and the environment (Sahle-Demessie et al., 2021, p. 14)
                 </li>
-              </ul>
-            </div>
-            <div>
-              Landfill
-              <ul
-                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
-                style={{ listStyle: "disc" }}
-              >
                 <li className="w-5/6">
-                  Not everything gets recycled, parts of e-waste is still sent
-                  to landfill
-                  <ul
-                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3 mt-2"
-                    style={{ listStyle: "circle" }}
-                  >
-                    <li className="w-5/6">
-                      e.g. informal recycling often separating recyclable metals
-                      from plastics, which in US, electronics plastics make up
-                      approx. 5% of municipal waste (Sahle-Emessie et al., 2021,
-                      p. 2)
-                    </li>
-                  </ul>
+                  informal recycling often involves separating recyclable metals
+                  from plastics, which in US, electronics plastics make up
+                  approx. 5% of municipal waste (Sahle-Emessie et al. 2021, p.
+                  2)
                 </li>
               </ul>
             </div>
