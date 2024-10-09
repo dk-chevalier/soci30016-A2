@@ -14,10 +14,10 @@ function YourEmissions() {
           </p>
           <div className="w-full">
             <p>
-              Actions on this website are calculated according to data from this
-              website, which calculates that{" "}
-              <b>each page load contributes {WEB_CO2} grams of CO2 emissions</b>{" "}
-              to the atmosphere:{" "}
+              <b>
+                Actions on this website contribute {WEB_CO2} grams of CO2
+                emissions to the atmosphere per page load:{" "}
+              </b>
             </p>
             <a
               href="https://www.websitecarbon.com/website/soci30016-a2-vercel-app/"
@@ -30,9 +30,11 @@ function YourEmissions() {
           </div>
           <div className="w-full">
             <p>
-              Laptops are approximated to{" "}
-              <b>emit {LAPTOP_CO2} grams of CO2 per second of usage</b>,
-              according to data from the below website:{" "}
+              <b>
+                Laptops emit approximately {LAPTOP_CO2} grams of CO2 per second
+                of usage
+              </b>
+              , according to data from the below website:{" "}
             </p>
             <a
               href="https://circularcomputing.com/news/carbon-footprint-laptop/"
