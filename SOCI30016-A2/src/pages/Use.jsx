@@ -46,6 +46,21 @@ function Use() {
               </ul>
             </div>
             <div>
+              AI vs Google emissions:
+              <ul
+                className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
+                style={{ listStyle: "disc" }}
+              >
+                <li className="w-5/6">
+                  1 query to generative AI emits approximately 4.32 grams of CO2
+                </li>
+                <li className="w-5/6">
+                  1 query to Google emits approximately 0.2 grams of CO2
+                </li>
+                <li className="w-5/6">(Girvan, 2024)</li>
+              </ul>
+            </div>
+            <div>
               Though e-products directly consume energy due to power
               requirements, rechargeable battery powered products can also
               contribute to 'standby power', which is power consumed by a

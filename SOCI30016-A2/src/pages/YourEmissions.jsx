@@ -45,7 +45,8 @@ function YourEmissions() {
               style={{ listStyle: "disc" }}
             >
               <li className="w-5/6">
-                Though data varies according to different laptops/computers.
+                Though data varies according to different laptops/computers,
+                this website used the mean 61.5 kgCO2
               </li>
             </ul>
           </div>

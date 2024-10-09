@@ -40,8 +40,8 @@ function Home() {
             E-waste & E-emissions at each stage of a product's lifecycle
           </h1>
           <p className="text-slate-500">
-            Interactive website - select a lifecycle stage to learn about
-            emissions associated with it
+            Interactive website - select a lifecycle stage to learn about waste
+            and sustainability issues associated with it
           </p>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 col-start-1 col-span-4 row-start-2 row-span-4 w-4/5 h-4/5">
