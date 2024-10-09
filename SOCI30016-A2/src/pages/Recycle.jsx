@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Info from "../features/Info";
 
 function Recycle() {
@@ -61,6 +62,18 @@ function Recycle() {
                   from plastics, which in US, electronics plastics make up
                   approx. 5% of municipal waste (Sahle-Emessie et al. 2021, p.
                   2)
+                  <ul
+                    className="flex flex-col justify-around content-end items-end self-end justify-self-endpy-3 px-3"
+                    style={{ listStyle: "disc" }}
+                  >
+                    <li className="w-5/6">
+                      Sending recycling to developing countries also leads to
+                      'waste colonialism'{" "}
+                      <Link to="../landfill" className="text-blue-500">
+                        (c.f. Landfill Section)
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
